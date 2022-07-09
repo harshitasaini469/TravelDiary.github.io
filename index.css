@@ -1,0 +1,88 @@
+         * {
+             padding: 0;
+             margin: 0;
+             box-sizing: border-box;
+         }
+         
+         html {
+             height: 100%;
+         }
+         
+         body {
+             display: flex;
+             flex-direction: column;
+             min-height: 100%;
+             background-image: url('Images/background.jpg');
+             background-repeat: no-repeat;
+             background-attachment: fixed;
+             background-size: cover;
+         }
+         
+         .carousel-item>img {
+             height: 90vh;
+             width: 100%;
+             object-fit: cover;
+         }
+         
+         .carousel-caption>h1 {
+             font-size: 6vw;
+         }
+         
+         .carousel-caption>h3 {
+             font-size: 4vw;
+         }
+         
+         #contact-form {
+             background-color: rgb(182, 179, 179, .2);
+         }
+         
+         .card-body>h5 {
+             font-size: 28px;
+         }
+         
+         #form-div {
+             background-color: rgba(37, 36, 36, 0.7);
+         }
+         
+         #quote-heading {
+             background-color: rgba(37, 36, 36, 0.7);
+         }
+         
+         #quote {
+             background-color: rgba(37, 36, 36, 0.7);
+         }
+         
+         #form {
+             color: palegoldenrod;
+         }
+         
+         #about-section {
+             background-color: rgba(37, 36, 36, 0.5);
+         }
+         
+         #about-card {
+             background: transparent;
+         }
+         
+         #blogs-heading {
+             background-color: rgba(37, 36, 36, 0.6);
+         }
+         
+         #blogs-heading>h3 {
+             letter-spacing: 0.5rem;
+         }
+         
+         .blog-card:hover {
+             cursor: pointer;
+         }
+         
+         footer {
+             background-color: rgba(15, 15, 15, 0.8);
+             box-shadow: 1px 1px 1px black;
+         }
+         
+         @media (max-width: 992px) {
+             .carousel-item>img {
+                 height: 70vh;
+             }
+         }
