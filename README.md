@@ -7,5 +7,4 @@
 3) Bootstrap <br>
 
 #### Preview
-https://harshitasaini469.github.io/TravelDiary.github.io/#contact-form
-
+https://harshitasaini469.github.io/TravelDiary.github.io/
